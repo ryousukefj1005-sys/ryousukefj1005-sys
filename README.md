@@ -8,11 +8,12 @@ Most of my code runs where nobody watches: cron jobs, LLM pipelines, and message
 
 | Tool | The incident it prevents |
 | --- | --- |
-| 🛡️ [dupguard](https://github.com/ryousukefj1005-sys/dupguard) | the same notification sent twice by a retrying cron job |
-| 🧩 [chartid](https://github.com/ryousukefj1005-sys/chartid) | two agents rebuilding the same chart, neither knowing the other exists |
-| 🚦 [msglint](https://github.com/ryousukefj1005-sys/msglint) | a bot shipping Markdown that renders as a wall of garbage |
+| 🛡️ [dupguard](https://github.com/andrew-builds-ai/dupguard) | the same notification sent twice by a retrying cron job |
+| 🧩 [chartid](https://github.com/andrew-builds-ai/chartid) | two agents rebuilding the same chart, neither knowing the other exists |
+| 🔐 [claimguard](https://github.com/andrew-builds-ai/claimguard) | two agents patching the same file, one silently erasing the other |
+| 🚦 [msglint](https://github.com/andrew-builds-ai/msglint) | a bot shipping Markdown that renders as a wall of garbage |
 
-All three: **one file, zero dependencies, Python 3.8+**, MIT.
+All four: **one file, zero dependencies, Python 3.8+**, MIT.
 
 ## Build rules I trust
 
